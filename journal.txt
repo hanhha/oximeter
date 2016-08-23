@@ -3,3 +3,6 @@ Hope this will help us taking care of our sweetie.
 
 2016-08-23 15:10 A plan is coming.
 I've found out a tiny RF module from Hshop.vn. The sensor NJL5501R has been ordered already.
+
+2016-08-23 22:07 Need a protocol.
+I would need a protocol to deal with RF ASK transceiver.
