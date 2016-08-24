@@ -6,3 +6,6 @@ I've found out a tiny RF module from Hshop.vn. The sensor NJL5501R has been orde
 
 2016-08-23 22:07 Need a protocol.
 I would need a protocol to deal with RF ASK transceiver.
+
+2016-08-24 10:53 Need to use RF24L01 module.
+ASK modulation is not ssuitable for data collection. I found a tutorial for using RF24L01 with AVR. Need to check it out.

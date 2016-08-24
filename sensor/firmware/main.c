@@ -6,6 +6,9 @@
 #include <util/delay.h>
 #include <stdbool.h>
 
+#include "common_tasks.h"
+#include "nRF24L01.h"
+
 #define NULL 0
 #define wait 2000
 #define numPts 200
@@ -25,9 +28,20 @@ void turn_on_ir (bool _is_on) {
 	//TODO: implement
 }
 
-int read_photo_sensor () {
+int read_photo_sensor (void) {
 	//TODO: implement
 	return 1;
+}
+
+void InitRF_SPI (void) {
+	//Set SCK, MISO, CSN and CE as outport
+	//TODO: implement
+	//Set MOSI as input, connects to nRF MISO
+	//TODO: implement
+	//CSN high to start with, nothing to be sent to the nRF yet!
+	//TODO: implement
+	//CE low to start with, nothing to send/receive yet
+	//TODO: implement
 }
 
 int main(void)
